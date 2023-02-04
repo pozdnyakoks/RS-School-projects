@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.svg" />
+
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <div class="wrapper-modal-login">
+      <div class="modal-window">
+        <div class="modal-window-login">
+          <h2 class="modal-capture">Log in to your account</h2>
+          <button class="modal-btn btn-facebook"><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" transform="translate(0.5)" fill="#1877F2" />
+              <path
+                d="M24 12.0699C24 5.71857 18.8513 0.569853 12.5 0.569853C6.14872 0.569853 1 5.71857 1 12.0699C1 17.8098 5.20538 22.5674 10.7031 23.4301V15.3941H7.7832V12.0699H10.7031V9.53626C10.7031 6.65407 12.42 5.06204 15.0468 5.06204C16.305 5.06204 17.6211 5.28665 17.6211 5.28665V8.11673H16.171C14.7424 8.11673 14.2969 9.00319 14.2969 9.91264V12.0699H17.4863L16.9765 15.3941H14.2969V23.4301C19.7946 22.5674 24 17.8098 24 12.0699Z"
+                fill="white" />
+            </svg>
+            Sign In with Facebook</button>
+          <button class="modal-btn btn-google"><svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" transform="translate(0.5)" fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M23.54 12.2614C23.54 11.4459 23.4668 10.6618 23.3309 9.90909H12.5V14.3575H18.6891C18.4225 15.795 17.6123 17.013 16.3943 17.8284V20.7139H20.1109C22.2855 18.7118 23.54 15.7636 23.54 12.2614Z"
+                fill="#4285F4" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12.5 23.4998C15.605 23.4998 18.2081 22.4701 20.1109 20.7137L16.3943 17.8282C15.3645 18.5182 14.0472 18.926 12.5 18.926C9.50474 18.926 6.96951 16.903 6.06519 14.1848H2.22314V17.1644C4.11542 20.9228 8.00451 23.4998 12.5 23.4998Z"
+                fill="#34A853" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.06523 14.1851C5.83523 13.4951 5.70455 12.758 5.70455 12.0001C5.70455 11.2421 5.83523 10.5051 6.06523 9.81506V6.83552H2.22318C1.44432 8.38802 1 10.1444 1 12.0001C1 13.8557 1.44432 15.6121 2.22318 17.1646L6.06523 14.1851Z"
+                fill="#FBBC05" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12.5 5.07386C14.1884 5.07386 15.7043 5.65409 16.8961 6.79364L20.1945 3.49523C18.2029 1.63955 15.5997 0.5 12.5 0.5C8.00451 0.5 4.11542 3.07705 2.22314 6.83545L6.06519 9.815C6.96951 7.09682 9.50474 5.07386 12.5 5.07386Z"
+                fill="#EA4335" />
+            </svg>
+            Sign In with Google</button>
+          <div class="middleblock">
+            <span class="line"><svg width="261" height="1" viewBox="0 0 261 1" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="261" y2="0.5" stroke="#0D606F" stroke-opacity="0.5" />
+              </svg>
+            </span><span class="word">or</span><span class="line"><svg width="261" height="1" viewBox="0 0 261 1"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="0.5" x2="261" y2="0.5" stroke="#0D606F" stroke-opacity="0.5" />
+              </svg>
+            </span>
+          </div>
+          <form action="/" class="signin-form signin">
+            <label class="input-label">E-mail
+              <input class="input-login input-email" type="email">
+            </label>
+            <label class="input-label">Password
+              <input class="input-login input-password" type="password">
+            </label>
+
+            <button class="btn signin-btn">Sign In</button>
+          </form>
+          <div class="link-block">
+            <a href="#" class="link-signin">Forgot Your Password?</a>
+          </div>
+          <div class="line-signin">
+            <svg width="561" height="2" viewBox="0 0 561 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0.000892856" y1="0.500001" x2="560.001" y2="1.5" stroke="#0D606F" stroke-opacity="0.5" />
+            </svg>
+          </div>
+          <p class="signin-desc">Don't have an account? <button class="register link-signin">Register</button></p>
+        </div>
+        <div class="modal-window-signup">
+          <h2 class="modal-capture">Create account</h2>
+          <form action="/" class="signin-form signup">
+            <label class="input-label">E-mail
+              <input class="input-login input-email input-email-signup" type="email" required>
+            </label>
+            <label class="input-label">Password
+              <input class="input-login input-password input-password-signup" type="password" required>
+            </label>
+            <button class="btn signin-btn">Sign Up</button>
+          </form>
+          <div class="line-signin">
+            <svg width="561" height="2" viewBox="0 0 561 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0.000892856" y1="0.500001" x2="560.001" y2="1.5" stroke="#0D606F" stroke-opacity="0.5" />
+            </svg>
+
+          </div>
+          <p class="signin-desc signin-desc-up">Already have an account? <button class="login link-signin">Log
+              in</button></p>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="top__wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <img class="header__img-mob" src="img/logomob.svg" alt="logo">
+          <img class="header__img" src="img/logo.svg" alt="logo">
+          <button class="header__burger" aria-label="open menu">
+            <svg class="header__burger-line" width="27" height="4" viewBox="0 0 27 4" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.2396 0.666672H1.76042C0.995272 0.666672 0.375 1.23378 0.375 1.93334V2.06667C0.375 2.76623 0.995272 3.33334 1.76042 3.33334H25.2396C26.0047 3.33334 26.625 2.76623 26.625 2.06667V1.93334C26.625 1.23378 26.0047 0.666672 25.2396 0.666672Z"
+                fill="white" />
+            </svg>
+
+            <svg class="header__burger-line" width="27" height="4" viewBox="0 0 27 4" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.2396 0.666672H1.76042C0.995272 0.666672 0.375 1.23378 0.375 1.93334V2.06667C0.375 2.76623 0.995272 3.33334 1.76042 3.33334H25.2396C26.0047 3.33334 26.625 2.76623 26.625 2.06667V1.93334C26.625 1.23378 26.0047 0.666672 25.2396 0.666672Z"
+                fill="white" />
+            </svg>
+
+            <svg class="header__burger-line" width="27" height="4" viewBox="0 0 27 4" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.2396 0.666672H1.76042C0.995272 0.666672 0.375 1.23378 0.375 1.93334V2.06667C0.375 2.76623 0.995272 3.33334 1.76042 3.33334H25.2396C26.0047 3.33334 26.625 2.76623 26.625 2.06667V1.93334C26.625 1.23378 26.0047 0.666672 25.2396 0.666672Z"
+                fill="white" />
+            </svg>
+          </button>
+          <nav class="header__nav">
+            <button class="header__close-btn" aria-label="close menu">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.175 8L15.25 1.925C15.3865 1.76559 15.4579 1.56052 15.4498 1.35079C15.4417 1.14106 15.3547 0.942114 15.2063 0.793702C15.0579 0.64529 14.8589 0.558345 14.6492 0.550244C14.4395 0.542144 14.2344 0.613482 14.075 0.750004L8 6.825L1.925 0.741671C1.76558 0.605149 1.56052 0.533811 1.35079 0.541912C1.14106 0.550013 0.942108 0.636956 0.793696 0.785368C0.645284 0.93378 0.55834 1.13273 0.550239 1.34246C0.542138 1.55219 0.613477 1.75725 0.749999 1.91667L6.825 8L0.741665 14.075C0.65443 14.1497 0.58358 14.2416 0.533561 14.345C0.483541 14.4484 0.455432 14.561 0.450999 14.6758C0.446566 14.7906 0.465905 14.905 0.5078 15.0119C0.549696 15.1189 0.613244 15.216 0.694457 15.2972C0.775669 15.3784 0.872792 15.442 0.979729 15.4839C1.08667 15.5258 1.20111 15.5451 1.31588 15.5407C1.43064 15.5362 1.54325 15.5081 1.64664 15.4581C1.75003 15.4081 1.84196 15.3372 1.91666 15.25L8 9.175L14.075 15.25C14.2344 15.3865 14.4395 15.4579 14.6492 15.4498C14.8589 15.4417 15.0579 15.3547 15.2063 15.2063C15.3547 15.0579 15.4417 14.8589 15.4498 14.6492C15.4579 14.4395 15.3865 14.2344 15.25 14.075L9.175 8Z"
+                  fill="white" fill-opacity="0.7" />
+              </svg>
+            </button>
+            <ul class="list-reset header__list">
+              <li class="header__list-item">
+                <a href="#how" class="header__list-item-link">How it works</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#plan" class="header__list-item-link">Plan Your Trip</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#destination" class="header__list-item-link">Destinations</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#stories" class="header__list-item-link">Travel stories</a>
+              </li>
+              <li class="header__list-item mobile-item">
+                <a href="#" class="header__list-item-link account">Account</a>
+              </li>
+              <li class="header__list-item mobile-item">
+                <a href="#footer" class="header__list-item-link">Social Media</a>
+              </li>
+
+            </ul>
+          </nav>
+          <button class="header__btn btn">Login</button>
+        </div>
+      </header>
+      <section id="how" class="section section__hero">
+        <div class="container hero__container">
+          <h1 class="hero__capture">Explore the beauty&nbsp;of the&nbsp;World</h1>
+          <p class="hero__desc text">Receive personalized recommendations for countries, hotels, activities and more
+          </p>
+          <form action="/" class="hero__form">
+            <input type="text" class="hero__input" placeholder="What would you like to do?">
+            <button class="hero__button btn">Start Planning</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <main>
+
+      <section class="section section__plan" id="plan">
+        <div class="container">
+          <h2 class="plan__capture capture">3 STEPS TO THE PERFECT TRIP</h2>
+          <ul class="list-reset plan__list">
+            <li class="plan__list-item">
+              <img src="img/plan1.svg" alt="bycicle" class="plan__img">
+              <p class="text plan__desc">Tell us what you want&nbsp;to&nbsp;do</p>
+            </li>
+            <li class="plan__list-item"><img src="img/plan2.svg" alt="calendar" class="plan__img">
+              <p class="text plan__desc">Share us preferable dates </p>
+            </li>
+            <li class="plan__list-item"><img src="img/plan3.svg" alt="plane" class="plan__img">
+              <p class="text plan__desc">We will give you recommendations</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section__destination" id="destination">
+        <div class="destination__container">
+          <h2 class="destination__capture capture">POPULAR DESTINATIONS</h2>
+          <div class="destination__slider-wrapper ">
+            <button class="prev"></button>
+            <button class="next"></button>
+            <div class="destination__slide spain">
+              <picture>
+                <source srcset="img/slider3-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider3.jpg" media="(max-width: 691px)">
+                <img src="img/slider3.jpg" alt="spain">
+              </picture>
+              <span class="destination__desc">Spain</span>
+            </div>
+
+            <div class="destination__slide japan">
+              <picture>
+                <source srcset="img/slider1-mob.jpg" media="(max-width: 391px)">
+                <img src="img/slider1.jpg" alt="japan">
+              </picture>
+              <span class="destination__desc">Japan</span>
+            </div>
+            <div class="destination__slide usa">
+              <picture>
+                <source srcset="img/slider2-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider2.jpg" media="(max-width: 691px)">
+                <img src="img/slider2.jpg" alt="usa">
+              </picture>
+              <span class="destination__desc">USA</span>
+            </div>
+
+            <div class="destination__slide active spain">
+              <picture>
+                <source srcset="img/slider3-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider3.jpg" media="(max-width: 691px)">
+                <img src="img/slider3.jpg" alt="spain">
+              </picture>
+              <span class="destination__desc">Spain</span>
+            </div>
+
+            <div class="destination__slide japan">
+              <picture>
+                <source srcset="img/slider1-mob.jpg" media="(max-width: 391px)">
+                <img src="img/slider1.jpg" alt="japan">
+              </picture>
+              <span class="destination__desc">Japan</span>
+            </div>
+
+            <div class="destination__slide usa">
+              <picture>
+                <source srcset="img/slider2-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider2.jpg" media="(max-width: 691px)">
+                <img src="img/slider2.jpg" alt="usa">
+              </picture>
+              <span class="destination__desc">USA</span>
+            </div>
+            <div class="destination__slide spain">
+              <picture>
+                <source srcset="img/slider3-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider3.jpg" media="(max-width: 691px)">
+                <img src="img/slider3.jpg" alt="spain">
+              </picture>
+              <span class="destination__desc spain">Spain</span>
+            </div>
+            <div class="destination__slide japan">
+              <picture>
+                <source srcset="img/slider1-mob.jpg" media="(max-width: 391px)">
+                <img src="img/slider1.jpg" alt="japan">
+              </picture>
+              <span class="destination__desc">Japan</span>
+            </div>
+
+            <div class="destination__slide usa">
+              <picture>
+                <source srcset="img/slider2-mob.jpg" media="(max-width: 391px)">
+                <source srcset="img/slider2.jpg" media="(max-width: 691px)">
+                <img src="img/slider2.jpg" alt="usa">
+              </picture>
+              <span class="destination__desc">USA</span>
+            </div>
+
+          </div>
+          <div class="destination-pagination-wrapper">
+            <button>
+              <svg class="destination-pagination destination-pagination-left" width="15" height="26" viewBox="0 0 15 26"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.924346 1.0675C0.572838 1.41911 0.375371 1.89594 0.375371 2.39312C0.375371 2.89031 0.572838 3.36713 0.924346 3.71875L10.2056 13L0.924346 22.2812C0.5828 22.6349 0.39381 23.1085 0.398083 23.6001C0.402354 24.0917 0.599545 24.562 0.947186 24.9097C1.29483 25.2573 1.7651 25.4545 2.25672 25.4588C2.74834 25.463 3.22197 25.274 3.57559 24.9325L14.1825 14.3256C14.534 13.974 14.7314 13.4972 14.7314 13C14.7314 12.5028 14.534 12.026 14.1825 11.6744L3.57559 1.0675C3.22398 0.715991 2.74715 0.518524 2.24997 0.518524C1.75279 0.518524 1.27596 0.715991 0.924346 1.0675Z"
+                  fill="#F2785C" />
+              </svg>
+            </button>
+            <button>
+              <svg class="destination-pagination destination-pagination-right active" width="15" height="26"
+                viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.924346 1.0675C0.572838 1.41911 0.375371 1.89594 0.375371 2.39312C0.375371 2.89031 0.572838 3.36713 0.924346 3.71875L10.2056 13L0.924346 22.2812C0.5828 22.6349 0.39381 23.1085 0.398083 23.6001C0.402354 24.0917 0.599545 24.562 0.947186 24.9097C1.29483 25.2573 1.7651 25.4545 2.25672 25.4588C2.74834 25.463 3.22197 25.274 3.57559 24.9325L14.1825 14.3256C14.534 13.974 14.7314 13.4972 14.7314 13C14.7314 12.5028 14.534 12.026 14.1825 11.6744L3.57559 1.0675C3.22398 0.715991 2.74715 0.518524 2.24997 0.518524C1.75279 0.518524 1.27596 0.715991 0.924346 1.0675Z"
+                  fill="#F2785C" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="destination__dots-wrapper">
+            <span class="destination__dot"></span>
+            <span class="destination__dot active" id="dot1"></span>
+            <span class="destination__dot" id="dot2"></span>
+          </div>
+          <button class="btn destination__btn">
+            <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M2.5 20.5C2.5 20.1685 2.6317 19.8505 2.86612 19.6161C3.10054 19.3817 3.41848 19.25 3.75 19.25H33.2325L25.365 11.385C25.1303 11.1503 24.9984 10.8319 24.9984 10.5C24.9984 10.1681 25.1303 9.84971 25.365 9.61499C25.5997 9.38028 25.9181 9.24841 26.25 9.24841C26.5819 9.24841 26.9003 9.38028 27.135 9.61499L37.135 19.615C37.2514 19.7311 37.3438 19.869 37.4068 20.0209C37.4698 20.1728 37.5022 20.3356 37.5022 20.5C37.5022 20.6644 37.4698 20.8272 37.4068 20.9791C37.3438 21.1309 37.2514 21.2689 37.135 21.385L27.135 31.385C26.9003 31.6197 26.5819 31.7516 26.25 31.7516C25.9181 31.7516 25.5997 31.6197 25.365 31.385C25.1303 31.1503 24.9984 30.8319 24.9984 30.5C24.9984 30.1681 25.1303 29.8497 25.365 29.615L33.2325 21.75H3.75C3.41848 21.75 3.10054 21.6183 2.86612 21.3839C2.6317 21.1495 2.5 20.8315 2.5 20.5Z"
+                fill="white" />
+            </svg> Find More
+          </button>
+        </div>
+      </section>
+    </main>
+    <div class="bck-wrapper">
+      <section class="section section__stories" id="stories">
+        <h2 class="stories__capture capture">TRAVEL STORIES</h2>
+
+        <div class="stories__block">
+          <div class="stories__block-in container">
+            <ul class="list-reset stories__list">
+              <li class="stories__list-item">
+                <div class="stories__list-item-wrapper">
+                  <picture class="stories__img">
+                    <source srcset="img/stories1-mob.jpg" media="(max-width: 850px)">
+                    <img src="img/stories1.jpg" alt="boat">
+                  </picture>
+                  <div class="stories__list-item-block">
+                    <h3 class="stories__list-item-capture">10 Photos of Attractive Thailand</h3>
+                    <p class="stories__list-item-desc text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed
+                      do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
+                      ipsum
+                      dolor sit amet, consectetur adipiscing elit...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                    <p class="stories__list-item-desc-mob text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                      sit
+                      a...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+
+                  </div>
+                </div>
+              </li>
+              <li class="stories__list-item">
+                <div class="stories__list-item-wrapper">
+                  <picture class="stories__img">
+                    <source srcset="img/stories2-mob.jpg" media="(max-width: 850px)">
+                    <img src="img/stories2.jpg" alt="road">
+                  </picture>
+                  <div class="stories__list-item-block">
+                    <h3 class="stories__list-item-capture">Canyonlands National Park, Utah</h3>
+                    <p class="stories__list-item-desc text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed
+                      do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
+                      ipsum
+                      dolor sit amet, consectetur adipiscing elit...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                    <p class="stories__list-item-desc-mob text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                      sit
+                      a...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="stories__list-item">
+                <div class="stories__list-item-wrapper">
+                  <picture class="stories__img">
+                    <source srcset="img/stories3-mob.jpg" media="(max-width: 850px)">
+                    <img src="img/stories3.jpg" alt="mountains">
+                  </picture>
+                  <div class="stories__list-item-block">
+                    <h3 class="stories__list-item-capture">I left my heart in the Mountains!</h3>
+                    <p class="stories__list-item-desc text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                      laborum.Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                    <p class="stories__list-item-desc-mob text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                      sit
+                      a...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="stories__list-item">
+                <div class="stories__list-item-wrapper">
+                  <picture class="stories__img">
+                    <source srcset="img/stories4-mob.jpg" media="(max-width: 850px)">
+                    <img src="img/stories4.jpg" alt="bus">
+                  </picture>
+                  <div class="stories__list-item-block">
+                    <h3 class="stories__list-item-capture">The Longest journey in my life!</h3>
+                    <p class="stories__list-item-desc text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed
+                      do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
+                      ipsum
+                      dolor sit amet, consectetur adipiscing elit...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                    <p class="stories__list-item-desc-mob text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                      sit
+                      a...
+                      <br><a href="#" class="stories__list-item-link"><b>Read More</b></a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="btn stories__btn">
+              <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.5 20.5C2.5 20.1685 2.6317 19.8505 2.86612 19.6161C3.10054 19.3817 3.41848 19.25 3.75 19.25H33.2325L25.365 11.385C25.1303 11.1503 24.9984 10.8319 24.9984 10.5C24.9984 10.1681 25.1303 9.84971 25.365 9.61499C25.5997 9.38028 25.9181 9.24841 26.25 9.24841C26.5819 9.24841 26.9003 9.38028 27.135 9.61499L37.135 19.615C37.2514 19.7311 37.3438 19.869 37.4068 20.0209C37.4698 20.1728 37.5022 20.3356 37.5022 20.5C37.5022 20.6644 37.4698 20.8272 37.4068 20.9791C37.3438 21.1309 37.2514 21.2689 37.135 21.385L27.135 31.385C26.9003 31.6197 26.5819 31.7516 26.25 31.7516C25.9181 31.7516 25.5997 31.6197 25.365 31.385C25.1303 31.1503 24.9984 30.8319 24.9984 30.5C24.9984 30.1681 25.1303 29.8497 25.365 29.615L33.2325 21.75H3.75C3.41848 21.75 3.10054 21.6183 2.86612 21.3839C2.6317 21.1495 2.5 20.8315 2.5 20.5Z"
+                  fill="white" />
+              </svg> See More
+            </button>
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="footer">
+        <div class="container footer__container">
+          <div class="footer__left">
+            <a class="rss footer__link" href="https://rs.school/js-stage0/">
+              <img src="img/rs_school_js.svg" alt="rsschool">
+            </a>
+            <a class="github footer__link" href="https://github.com/pozdnyakoks/" aria-label="github">
+              <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+                data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                <path fill-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg>
+            </a>
+          </div>
+          <span class="footer__desc">All Rights Reserved © Travel Portal</span>
+          <ul class="footer__list list-reset">
+            <li class="footer__list-item">
+              <a href="https://instagram.com/" class="footer__list-item-link" aria-label="instagram"><svg width="34"
+                  height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M10.4678 1.49489C12.1126 1.41917 12.6371 1.40234 16.827 1.40234C21.0169 1.40234 21.5413 1.42057 23.1848 1.49489C24.8282 1.56921 25.95 1.83143 26.9316 2.21144C27.9594 2.59986 28.8919 3.20704 29.6632 3.9923C30.4484 4.76213 31.0542 5.69322 31.4412 6.72247C31.8226 7.70405 32.0834 8.82584 32.1592 10.4665C32.2349 12.1141 32.2517 12.6386 32.2517 16.8271C32.2517 21.017 32.2335 21.5414 32.1592 23.1863C32.0848 24.8269 31.8226 25.9487 31.4412 26.9303C31.0542 27.9596 30.4474 28.8923 29.6632 29.6632C28.8919 30.4485 27.9594 31.0543 26.9316 31.4413C25.95 31.8227 24.8282 32.0835 23.1876 32.1593C21.5413 32.235 21.0169 32.2518 16.827 32.2518C12.6371 32.2518 12.1126 32.2336 10.4678 32.1593C8.82716 32.0849 7.70536 31.8227 6.72378 31.4413C5.69442 31.0542 4.76179 30.4475 3.9908 29.6632C3.20608 28.893 2.59881 27.9608 2.21135 26.9317C1.83134 25.9501 1.57052 24.8283 1.4948 23.1877C1.41908 21.54 1.40225 21.0156 1.40225 16.8271C1.40225 12.6372 1.42048 12.1127 1.4948 10.4693C1.56912 8.82584 1.83134 7.70405 2.21135 6.72247C2.59938 5.69334 3.20711 4.76117 3.9922 3.99089C4.76209 3.20634 5.69379 2.59908 6.72238 2.21144C7.70395 1.83143 8.82575 1.57061 10.4664 1.49489H10.4678ZM23.06 4.27134C21.4334 4.19702 20.9454 4.1816 16.827 4.1816C12.7086 4.1816 12.2206 4.19702 10.594 4.27134C9.08938 4.34005 8.27327 4.59106 7.72919 4.80279C7.00984 5.08324 6.49522 5.41558 5.95535 5.95544C5.44359 6.45331 5.04975 7.05941 4.8027 7.72929C4.59096 8.27336 4.33996 9.08947 4.27125 10.5941C4.19693 12.2207 4.18151 12.7087 4.18151 16.8271C4.18151 20.9455 4.19693 21.4335 4.27125 23.0601C4.33996 24.5647 4.59096 25.3808 4.8027 25.9249C5.0495 26.5937 5.44353 27.2009 5.95535 27.6987C6.45315 28.2105 7.06032 28.6046 7.72919 28.8513C8.27327 29.0631 9.08938 29.3141 10.594 29.3828C12.2206 29.4571 12.7072 29.4725 16.827 29.4725C20.9468 29.4725 21.4334 29.4571 23.06 29.3828C24.5646 29.3141 25.3807 29.0631 25.9248 28.8513C26.6441 28.5709 27.1587 28.2386 27.6986 27.6987C28.2104 27.2009 28.6045 26.5937 28.8513 25.9249C29.063 25.3808 29.314 24.5647 29.3827 23.0601C29.457 21.4335 29.4725 20.9455 29.4725 16.8271C29.4725 12.7087 29.457 12.2207 29.3827 10.5941C29.314 9.08947 29.063 8.27336 28.8513 7.72929C28.5708 7.00993 28.2385 6.49531 27.6986 5.95544C27.2007 5.44372 26.5946 5.04989 25.9248 4.80279C25.3807 4.59106 24.5646 4.34005 23.06 4.27134ZM14.8568 21.5821C15.9571 22.0401 17.1823 22.1019 18.3231 21.757C19.4639 21.412 20.4495 20.6817 21.1117 19.6908C21.7739 18.6999 22.0715 17.5098 21.9537 16.3238C21.8359 15.1378 21.31 14.0295 20.4658 13.1882C19.9277 12.6504 19.277 12.2387 18.5606 11.9825C17.8442 11.7264 17.08 11.6322 16.3229 11.7069C15.5657 11.7816 14.8346 12.0232 14.1821 12.4144C13.5295 12.8055 12.9718 13.3365 12.5491 13.9691C12.1264 14.6016 11.8493 15.3201 11.7375 16.0726C11.6258 16.8252 11.6823 17.5931 11.903 18.3212C12.1237 19.0493 12.5031 19.7194 13.0139 20.2832C13.5246 20.8471 14.154 21.2907 14.8568 21.5821ZM11.2208 11.2209C11.957 10.4847 12.831 9.90067 13.7929 9.50223C14.7548 9.1038 15.7858 8.89872 16.827 8.89872C17.8681 8.89872 18.8991 9.1038 19.861 9.50223C20.8229 9.90067 21.697 10.4847 22.4332 11.2209C23.1694 11.9571 23.7534 12.8311 24.1518 13.793C24.5503 14.7549 24.7553 15.7859 24.7553 16.8271C24.7553 17.8682 24.5503 18.8992 24.1518 19.8611C23.7534 20.823 23.1694 21.697 22.4332 22.4333C20.9463 23.9201 18.9297 24.7554 16.827 24.7554C14.7243 24.7554 12.7076 23.9201 11.2208 22.4333C9.73394 20.9464 8.89863 18.9298 8.89863 16.8271C8.89863 14.7243 9.73394 12.7077 11.2208 11.2209ZM26.5137 10.0795C26.6961 9.90735 26.8422 9.7004 26.9432 9.47084C27.0442 9.24128 27.0982 8.99379 27.1018 8.74301C27.1055 8.49224 27.0588 8.24328 26.9645 8.01087C26.8702 7.77847 26.7303 7.56734 26.5529 7.39C26.3756 7.21265 26.1644 7.07269 25.932 6.97841C25.6996 6.88412 25.4507 6.83742 25.1999 6.84108C24.9491 6.84473 24.7016 6.89867 24.4721 6.99969C24.2425 7.10071 24.0356 7.24677 23.8635 7.4292C23.5288 7.78402 23.3455 8.2553 23.3526 8.74301C23.3597 9.23073 23.5566 9.69647 23.9015 10.0414C24.2464 10.3863 24.7122 10.5832 25.1999 10.5903C25.6876 10.5974 26.1589 10.4142 26.5137 10.0795Z"
+                    fill="#F8F8F8" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://www.youtube.com/" class="footer__list-item-link" aria-label="youtube">
+                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M25.8944 5.60889H9.06742C5.96967 5.60889 3.45844 8.12012 3.45844 11.2179V22.4359C3.45844 25.5336 5.96967 28.0449 9.06742 28.0449H25.8944C28.9922 28.0449 31.5034 25.5336 31.5034 22.4359V11.2179C31.5034 8.12012 28.9922 5.60889 25.8944 5.60889Z"
+                    stroke="#F8F8F8" stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M21.6876 16.8269L14.6764 12.6201V21.0336L21.6876 16.8269Z" stroke="#F8F8F8"
+                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://twitter.com/" class="footer__list-item-link" aria-label="twitter">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_72_17)">
+                    <path
+                      d="M33.4612 6.92278C32.2903 7.44162 31.0325 7.79218 29.7102 7.95063C31.0746 7.13423 32.0953 5.84932 32.582 4.33564C31.3001 5.09704 29.8972 5.63299 28.4341 5.92018C27.4503 4.86971 26.1472 4.17344 24.7271 3.93947C23.3069 3.7055 21.8493 3.94692 20.5805 4.62626C19.3116 5.30559 18.3026 6.38483 17.71 7.69641C17.1173 9.00799 16.9743 10.4785 17.3031 11.8797C14.7057 11.7493 12.1647 11.0742 9.84514 9.89822C7.52554 8.72223 5.47913 7.07165 3.83872 5.05359C3.27782 6.02114 2.9553 7.14294 2.9553 8.33765C2.95468 9.41317 3.21953 10.4722 3.72637 11.4208C4.23321 12.3694 4.96635 13.1783 5.86076 13.7756C4.82348 13.7426 3.80909 13.4623 2.90202 12.9581V13.0422C2.90191 14.5506 3.4237 16.0127 4.37884 17.1802C5.33398 18.3478 6.66365 19.1489 8.14222 19.4477C7.17997 19.7081 6.17113 19.7464 5.19189 19.5598C5.60905 20.8578 6.42165 21.9928 7.51593 22.8059C8.6102 23.6191 9.93137 24.0697 11.2945 24.0947C8.98053 25.9112 6.12282 26.8965 3.18106 26.8922C2.65996 26.8923 2.1393 26.8619 1.62177 26.801C4.60782 28.721 8.0838 29.7399 11.6338 29.7359C23.6511 29.7359 30.2206 19.7828 30.2206 11.1506C30.2206 10.8701 30.2136 10.5869 30.201 10.3064C31.4788 9.38229 32.5819 8.23795 33.4584 6.92699L33.4612 6.92278Z"
+                      fill="#F8F8F8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_72_17">
+                      <rect width="33.6539" height="33.6539" fill="white" transform="translate(0.307861)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="git-mob">
+            <a class="github-mob footer__link" href="https://github.com/pozdnyakoks/" aria-label="github">
+              <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+                data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                <path fill-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
